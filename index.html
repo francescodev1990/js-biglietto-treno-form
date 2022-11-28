@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,37 @@
     <link rel="stylesheet" href="css/style.css">
     <title>js-biglietto-treno-form </title>
 </head>
+
 <body>
-    
+    <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <label for="name">Inserisci Nome e Cognome</label>
+                <input id="name" type="text">
+            </div>
+            <div class="col">
+                <label for="km">Inserisci i km</label>
+                <input id="km" type="number">
+            </div>
+            <div class="col">
+                <label for="eta">Inserisci l'età</label>
+                <select name="scelta" id="age">
+                    <option value="minorenne">Minorenne</option>
+                    <option value="maggiorenne">Maggiorenne</option>
+                    <option value="over65">Over 65</option>
+                </select>
+            </div>
+            <div class="container-btn">
+                <a href="#" id="generate" class="btn">Genera</a>
+                <a href="#" id="cancel" class="btn">Annulla</a>
+            </div>
+        </div>
+    </div>
+
+
+
     <script type="text/javascript" src="./js/script.js"></script>
 </body>
+
 </html>

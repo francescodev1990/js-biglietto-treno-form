@@ -1,3 +1,51 @@
-body{
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ba1450;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    width: 85%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.row {
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    border-radius: 12px;
+    border: 2px solid yellow;
     background-color: cornflowerblue;
+    margin-top: 20px;
+}
+
+input {
+    border-radius: 8px;
 }
