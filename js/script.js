@@ -14,8 +14,3 @@
 //CALCOLO DEL PREZZO TOTALE TRAMITE PRESSIONE DI UN PULSANTE//
 //STAMPARE A VIDEO I RISULTATI//
 
-let km = prompt('Per favore inserisci i km che devi percorrere');
-console.log(km);
-
-let eta = prompt('Per favore inserisci adesso la tua età, servirà per il calcolo finale del costo');
-console.log(eta);
