@@ -17,32 +17,25 @@ h2 {
 
 .container {
     display: flex;
-    width: 85%;
+    width: 90%;
     height: 250px;
     margin: 0 auto;
     margin-top: 25px;
     background-color: white;
     border-radius: 15px;
-    padding: 25px;
+    padding: 40px;
 }
 
 .row {
     width: 100%;
 }
 
-.col {
-    display: flex;
-    justify-content: space-between;
-    font-size: 22px;
-}
-
 .container-btn {
     display: flex;
     justify-content: space-around;
-    padding: 25px;
+    padding: 15px;
     border-radius: 12px;
-    border: 2px solid yellow;
-    background-color: cornflowerblue;
+    background-color: rgb(99, 133, 195);
     margin-top: 20px;
 }
 
