@@ -37,20 +37,21 @@ price_button.addEventListener('click', function () {
     let prezzo = 0.21 * chilometri;
     console.log(prezzo);
 
-    
+    //CONDIZIONI//
 
-
-
-    if (eta == 'minorenne') {
-        prezzo = 0.21 * chilometri * 0.8;
+    if (age == 'minorenne') {
+        prezzo = (0.21 * chilometri * 0.8).toFixed(2);
     }
-    else if (eta == 'over65') {
-        prezzo = 0, 21 * chilometri * 0.6;
+    else if (age == 'over65') {
+        prezzo = (0,21 * chilometri * 0.6).toFixed(2);
     }
     else {
-        prezzo = 0.21 * chilometri;
+        prezzo = (0.21 * chilometri).toFixed(2);
     }
     console.log(prezzo)
+
+    document.getElementById('name_visual').innerHTML = name_surname;
+    document.getElementById('prezzo_visual').innerHTML = prezzo;
 });
 
 
