@@ -14,3 +14,15 @@
 //CALCOLO DEL PREZZO TOTALE TRAMITE PRESSIONE DI UN PULSANTE//
 //STAMPARE A VIDEO I RISULTATI//
 
+const price_button = document.getElementById('generate');
+price_button.addEventListener('click', function(){
+    let name_surname = document.getElementById('name')
+    .value;
+    console.log(name_surname);
+    let chilometri_percorsi = document.getElementById('km')
+    .value;
+    console.log(chilometri_percorsi);
+    let age = document.getElementById('eta')
+    .value;
+    console.log(age);
+});
