@@ -37,7 +37,9 @@ price_button.addEventListener('click', function () {
     let prezzo = 0.21 * chilometri;
     console.log(prezzo);
 
-    //CONDIZIONI//
+    //CONDIZIONI IF 
+    //ELSE IF 
+    //ELSE
 
     if (age == 'minorenne') {
         prezzo = (0.21 * chilometri * 0.8).toFixed(2);
